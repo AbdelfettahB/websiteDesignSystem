@@ -1,6 +1,38 @@
+html {
+  background-color: rgb(179, 184, 179);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
+  width: 80%;
+  margin: 0 auto;
 }
-main {
+#flex-box {
+  display: flex;
+  justify-content: space-between;
 }
-section {
+.container {
+  width: 25%;
+}
+.colors-box {
+  display: flex;
+}
+.two-boxes {
+  width: 50%;
+  height: 50px;
+}
+.one-box {
+  width: 100%;
+  height: 50px;
+}
+.three-boxes {
+  width: 33.33%;
+  height: 50px;
+}
+.caption {
+  height: 50px;
+  background-color: white;
 }
