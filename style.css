@@ -1,16 +1,29 @@
 html {
-  background-color: rgb(179, 184, 179);
+  background-color: whitesmoke;
 }
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 body {
   width: 80%;
   margin: 0 auto;
 }
-#flex-box {
+#main-header {
+  text-align: center;
+  font-family: monospace;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+#colors,
+#typography,
+#buttons {
+  border: thin solid black;
+  background-color: white;
+  padding: 20px;
+  margin-top: 50px;
+}
+.flex-box {
   display: flex;
   justify-content: space-between;
 }
@@ -35,4 +48,38 @@ body {
 .caption {
   height: 50px;
   background-color: white;
+}
+#headings,
+#bodytext {
+  width: 40%;
+}
+.button {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+}
+.ff9c02 {
+  background-color: #ff9c02;
+}
+.ff8400 {
+  background-color: #ff8400;
+}
+.e06b00 {
+  background-color: #e06b00;
+}
+.f3f3f3 {
+  background-color: #f3f3f3;
+}
+.C444 {
+  background-color: #444;
+}
+.c111 {
+  background-color: #111;
+}
+#styling {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
