@@ -1,5 +1,6 @@
 html {
   background-color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
 }
 * {
   box-sizing: border-box;
@@ -15,6 +16,9 @@ body {
   font-weight: bolder;
   font-size: xx-large;
 }
+h2{
+  text-transform: capitalize;
+}
 #colors,
 #typography,
 #buttons {
@@ -22,6 +26,9 @@ body {
   background-color: white;
   padding: 20px;
   margin-top: 50px;
+}
+#buttons{
+  margin-bottom: 50px;
 }
 .flex-box {
   display: flex;
@@ -48,10 +55,11 @@ body {
 .caption {
   height: 50px;
   background-color: white;
+  text-align: center;
 }
 #headings,
 #bodytext {
-  width: 40%;
+  width: 45%;
 }
 .button {
   width: 200px;
@@ -74,12 +82,45 @@ body {
 }
 .C444 {
   background-color: #444;
+  color: white;
 }
 .c111 {
   background-color: #111;
+  color: white;
 }
 #styling {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+.heading-1{
+  font-size:  60px; 
+}
+.heading-2{
+  font-size:  36px;
+}
+.heading-3{
+  font-size:  28px;
+}
+.heading-4{
+  font-size:  24px;
+}
+.heading-5{
+  font-size:  20px;
+}
+.heading-6{
+  font-size:  18px;
+}
+#source-code-pro{
+  font-family: 'Source Code Pro', monospace;
+}
+#nunito{
+  font-family: 'Nunito Sans', sans-serif;
+
+}
+#poppins{
+  font-family: 'Poppins', sans-serif;
+}
+h3{
+  text-decoration: underline;
 }
